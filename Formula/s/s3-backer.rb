@@ -14,7 +14,7 @@ class S3Backer < Formula
   depends_on "curl"
   depends_on "expat"
   depends_on "libfuse@2"
-  depends_on :linux # on macOS, requires closed-source macFUSE
+  depends_on "macfuse"
   depends_on "openssl@3"
 
   def install
